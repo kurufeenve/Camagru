@@ -1,2 +1,3 @@
 /* */
-let a = 'first line'
+let a = 'first line';
+let b = 'second line';
