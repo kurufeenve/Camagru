@@ -1,6 +1,7 @@
-*{
-  border: 1px solid black
+* {
+  border: 1px solid black;
 }
+
 body {
   font-size: $font-size-base;
   font-weight: $font-weight-base;
@@ -10,7 +11,7 @@ body {
 }
 
 .font-lato {
-  font-family: Lato, "Open Sans", "Source Sans Pro";
+  font-family: Lato, "Open Sans", "Source Sans Pro", sans-serif;
 }
 
 .font-monospace {
