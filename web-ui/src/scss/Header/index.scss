@@ -1,3 +1,10 @@
 .app--header {
-  border: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  border: $border;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 77px;
 }

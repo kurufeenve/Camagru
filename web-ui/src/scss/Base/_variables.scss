@@ -1,14 +1,20 @@
 $window-width: 500px;
 $button-size: 10px;
 //colors
+$white-darker: #fafafa;
 $dark-gray: #272727;
 //fonts
 $font-weight-light: 300;
 $font-weight-normal: 400;
-$font-weight-bold: 700;
+$font-weight-bold: 600;
 //base fonts
+$font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+  Arial, sans-serif;
 $font-size-base: 14px;
 $font-weight-base: $font-weight-normal;
 $line-height-base: 1.15;
 //shadow
 $box-shadow: 0 15px 35px rgba(61, 82, 104, 0.12);
+//borders
+$border: 1px solid #e6e6e6;
+$border-radius: 3px;

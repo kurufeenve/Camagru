@@ -1,21 +1,11 @@
-* {
-  border: 1px solid black;
-}
-
 body {
+  font-family: $font-family;
   font-size: $font-size-base;
   font-weight: $font-weight-base;
   line-height: $line-height-base;
-  background-color: $dark-gray;
-  padding: 10px;
-}
-
-.font-lato {
-  font-family: Lato, "Open Sans", "Source Sans Pro", sans-serif;
-}
-
-.font-monospace {
-  font-family: monospace;
+  background-color: $white-darker;
+  border: $border;
+  border-radius: $border-radius;
 }
 
 // Transformation
@@ -29,20 +19,4 @@ body {
 
 .capitalize {
   text-transform: capitalize;
-}
-
-p {
-  line-height: 1.5;
-}
-
-.declaration {
-  color: #c967cc;
-}
-
-.variable {
-  color: #eb7c7c;
-}
-
-.text {
-  color: #9fdb88;
 }
